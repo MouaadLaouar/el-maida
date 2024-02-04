@@ -65,7 +65,7 @@ const Header = () => {
       <header ref={headerRef} className='header' id='header'>
         <nav className="nav container">
 
-          <a href="#" className="nav__logo">
+          <a href="/" className="nav__logo">
             <img src={MaidaLogo} alt="" />
           </a>
 
