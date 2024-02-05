@@ -1,9 +1,4 @@
 import React from 'react'
-import bg from '../assets/ig3.png'
-import bg1 from '../assets/ig4.png'
-import bg2 from '../assets/ig5.png'
-import bg3 from '../assets/ig1.png'
-import bg4 from '../assets/ig.png'
 import ProductCard from '../comp/ProductCard'
 import { ChessItems, MilkItems,JusItems  } from './Data';
 import cowImg from '../assets/milk.svg'
@@ -68,7 +63,7 @@ const Collections = () => {
 
             
           <li>
-              <div className="collection-card" style={{backgroundImage: `url(${bg})`}}> 
+              <div className="collection-card bg"> 
                 <h3 className="card-title"></h3>
 
                 <a href="https://www.instagram.com/p/CuXbEvgt5OR/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" className="btn btn-secondary">
@@ -80,7 +75,7 @@ const Collections = () => {
             </li>
 
             <li>
-              <div className="collection-card" style={{backgroundImage: `url(${bg4})`}}> 
+              <div className="collection-card bg4"> 
                 <h3 className="card-title"></h3>
 
                 <a href="https://www.instagram.com/p/CvK0c0_LlD0/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" className="btn btn-secondary">
@@ -92,7 +87,7 @@ const Collections = () => {
             </li>
 
             <li>
-              <div className="collection-card" style={{backgroundImage: `url(${bg3})`}}> 
+              <div className="collection-card bg3"> 
                 <h3 className="card-title"></h3>
 
                 <a href="https://www.instagram.com/p/CvAiMacLGOy/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" className="btn btn-secondary">
@@ -104,7 +99,7 @@ const Collections = () => {
             </li>
 
             <li>
-              <div className="collection-card" style={{backgroundImage: `url(${bg1})`}}> 
+              <div className="collection-card bg1"> 
                 <h3 className="card-title"></h3>
 
                 <a href="https://www.instagram.com/p/CvFxQ4xrHvm/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" className="btn btn-secondary">
@@ -116,7 +111,7 @@ const Collections = () => {
             </li>
 
             <li>
-              <div className="collection-card" style={{backgroundImage: `url(${bg2})`}}> 
+              <div className="collection-card bg2"> 
                 <h3 className="card-title"></h3>
 
                 <a href="https://www.instagram.com/p/CvAiMacLGOy/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==" target="_blank" className="btn btn-secondary">
