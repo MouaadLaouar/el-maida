@@ -260,23 +260,41 @@ a {
   }
 }
 
+/// Hero Section
+
+.HeroSection {
+  height: 90vh;
+  margin: 100px 0px 0px;
+
+  background: url("../assets/Slider/test2.jpg") no-repeat;
+  // background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .HeroSection {
+    display: none;
+  }
+}
+
 /*=============== HOME ===============*/
 
 .home {
-  //background: url("../assets/ab1.png") no-repeat;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
+  // background: url("../assets/ab1.png") no-repeat;
+  // background: url("../assets/Slider/test.jpg") no-repeat;
+  // background-repeat: no-repeat;
+  // background-position: bottom;
+  // background-size: cover;
   max-width: 100vw;
 }
 .home,
 .home__container {
-  padding-top: 100px;
+  // padding: 100px 0px 0px;
   position: relative;
 }
 
 .home__container {
-  padding-top: 8rem;
+  padding-top: 10rem;
   // display: grid;
   // row-gap: 1rem;
   display: flex;
@@ -632,7 +650,7 @@ a {
     z-index: 9;
     background: url("../assets/cowbg.png") no-repeat;
     background-position: bottom;
-    padding: 120px 0;
+    padding: 70px 0;
     text-align: center;
   }
 
@@ -1515,7 +1533,7 @@ a {
   }
 
   .card-content {
-    padding: 24px 15px 0;
+    padding: 0px 15px;
     text-align: center;
   }
 

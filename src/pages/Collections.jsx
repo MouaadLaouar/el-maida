@@ -21,11 +21,13 @@ const Collections = () => {
     }
   }, [location.hash]);
 
-  const all = ChessItems.concat(JusItems, MilkItems);
+  // const all = ChessItems.concat(JusItems, MilkItems);
+  const all = JusItems;
 
   //animation dont work for exicting cards
   const [content, setContent] = useState(JusItems);
-  const [btnHover, setBtnHover] = useState("Jus");
+  const [btnHover, setBtnHover] = useState("all");
+
   const handleProduct = (e) => {
     let product = e.currentTarget.innerHTML;
     if (product == "Lait") {
@@ -189,7 +191,7 @@ const Collections = () => {
               Les produits les plus vendus
             </h2>
 
-            <ul className="filter-list">
+            {/* <ul className="filter-list">
               <li>
                 <button
                   onClick={handleProduct}
@@ -227,7 +229,7 @@ const Collections = () => {
                   Fromage
                 </button>
               </li>
-            </ul>
+            </ul> */}
 
             <ul className="product-list">{cards}</ul>
           </div>

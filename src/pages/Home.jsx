@@ -14,6 +14,8 @@ import ananas2 from "../assets/an8.png";
 
 import peach from "../assets/peach.png";
 
+import Slide1 from "../assets/Slider/test.jpg";
+
 import cowImg from "../assets/milk.svg";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -28,6 +30,8 @@ import myVideo from "../assets/vid.mp4";
 import { Link } from "react-router-dom";
 import Transiton from "../comp/Transiton";
 import { useState, useEffect } from "react";
+
+import Slider from "../comp/Slider/SliderHero";
 
 const Home = () => {
   const productImages = [prod1, prod2, prod3, prod4];
@@ -54,6 +58,14 @@ const Home = () => {
         exit={{ opacity: 0 }}
         transition={{ ease: "easeInOut", duration: 0.1, delay: 0.5 }}
       >
+        {/* <Slider /> */}
+
+        {/* <img className="HeroPage" src={Slide1} alt="" /> */}
+
+        <section className="HeroSection">
+          
+        </section>
+
         <main className="main">
           <section className="home">
             <div className="home__container container">

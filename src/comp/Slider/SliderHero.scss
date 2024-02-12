@@ -1,0 +1,23 @@
+.SliderHero {
+  //margin-top: 100px;
+  margin: 100px 10% 0px;
+
+  .Slide {
+    height: 250px;
+    background-size: contain;
+    background: no-repeat;
+    background-position: center;
+  }
+
+  .Slide1 {
+    background-image: url("../../assets/Slider/Slide1.jpg");
+  }
+
+  .Slide2 {
+    background-image: url("../../assets/Slider/Slide2.jpg");
+  }
+
+  .Slide3 {
+    background-image: url("../../assets/Slider/Slide3.png");
+  }
+}
