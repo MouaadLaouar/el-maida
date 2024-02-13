@@ -14,8 +14,6 @@ import ananas2 from "../assets/an8.png";
 
 import peach from "../assets/peach.png";
 
-import Slide1 from "../assets/Slider/test.jpg";
-
 import cowImg from "../assets/milk.svg";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -58,13 +56,13 @@ const Home = () => {
         exit={{ opacity: 0 }}
         transition={{ ease: "easeInOut", duration: 0.1, delay: 0.5 }}
       >
-        {/* <Slider /> */}
+        <Slider />
 
         {/* <img className="HeroPage" src={Slide1} alt="" /> */}
 
-        <section className="HeroSection">
+        {/* <section className="HeroSection">
           
-        </section>
+        </section> */}
 
         <main className="main">
           <section className="home">

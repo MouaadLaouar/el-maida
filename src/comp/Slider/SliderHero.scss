@@ -1,23 +1,28 @@
 .SliderHero {
   //margin-top: 100px;
-  margin: 100px 10% 0px;
+  margin: 100px 0 0px;
 
   .Slide {
-    height: 250px;
-    background-size: contain;
+    height: 50vh;
+    background-size: cover;
     background: no-repeat;
     background-position: center;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
   }
 
-  .Slide1 {
-    background-image: url("../../assets/Slider/Slide1.jpg");
-  }
+  // .Slide1 {
+  //   // background-image: url("../../assets/Slider/Slide1.jpg");
+  // }
 
-  .Slide2 {
-    background-image: url("../../assets/Slider/Slide2.jpg");
-  }
+  // .Slide2 {
+  //   background-image: url("../../assets/Slider/Slide2.jpg");
+  // }
 
-  .Slide3 {
-    background-image: url("../../assets/Slider/Slide3.png");
-  }
+  // .Slide3 {
+  //   background-image: url("../../assets/Slider/Slide3.jpg");
+  // }
 }
