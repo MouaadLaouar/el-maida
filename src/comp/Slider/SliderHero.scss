@@ -13,16 +13,12 @@
       width: 100%;
     }
   }
+}
 
-  // .Slide1 {
-  //   // background-image: url("../../assets/Slider/Slide1.jpg");
-  // }
-
-  // .Slide2 {
-  //   background-image: url("../../assets/Slider/Slide2.jpg");
-  // }
-
-  // .Slide3 {
-  //   background-image: url("../../assets/Slider/Slide3.jpg");
-  // }
+@media screen and (max-width: 1000px) {
+  .SliderHero {
+    .Slide {
+      height: 25vh;
+    }
+  }
 }
