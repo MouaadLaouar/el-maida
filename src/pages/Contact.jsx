@@ -137,7 +137,7 @@ const Contact = () => {
                         <p className="label-lg">Mail</p>
 
                         <a href="tel:info@domainname.com" className="body-lg">
-                          info@elmaida.com
+                          lait_meida@yahoo.fr
                         </a>
                       </div>
                     </li>
