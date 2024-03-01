@@ -31,6 +31,8 @@ import { useState, useEffect } from "react";
 
 import Slider from "../comp/Slider/SliderHero";
 
+import HomeCard from "../comp/HomeCard/HomeCard";
+
 const Home = () => {
   const productImages = [prod1, prod2, prod3, prod4];
 
@@ -176,7 +178,7 @@ const Home = () => {
                   différence !
                 </p>
 
-                <ul className="about-list">
+                {/* <ul className="about-list">
                   <li>
                     <div id="first" className="about-card">
                       <h3>
@@ -258,7 +260,9 @@ const Home = () => {
                       </div>
                     </div>
                   </li>
-                </ul>
+                </ul> */}
+                <HomeCard />
+
               </div>
 
               <div className="about-bottom">
